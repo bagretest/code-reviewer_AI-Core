@@ -145,3 +145,7 @@ Caso aplique algum deles, entre em contato comigo! Adoraria ver as possíveis ad
 
 ## Licença
 Este projeto é distribuído sob a licença MIT LICENSE. Veja o arquivo LICENSE para mais detalhes.
+
+Contato:
+Gabriel - biel.marcelino02@gmail.com
+Link do Projeto: https://github.com/bagretest/code-reviewer_AI-Core
