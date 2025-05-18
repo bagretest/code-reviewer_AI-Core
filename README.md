@@ -121,12 +121,12 @@ Estrutura do Projeto (Simplificada)
 ```
 
 ## Contribuições
-Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções de bugs, sinta-se à vontade para:
-    *   Fazer um Fork do projeto.
-    *   Criar uma nova Branch (git checkout -b feature/nova-feature).
-    *   Fazer commit de suas alterações (git commit -am 'Adiciona nova feature').
-    *   Fazer Push para a Branch (git push origin feature/nova-feature).
-    *   Abrir um Pull Request.
+**Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções de bugs, sinta-se à vontade para:**
+*   Fazer um Fork do projeto.
+*   Criar uma nova Branch (git checkout -b feature/nova-feature).
+*   Fazer commit de suas alterações (git commit -am 'Adiciona nova feature').
+*   Fazer Push para a Branch (git push origin feature/nova-feature).
+*   Abrir um Pull Request.
     
 ## Limitações Conhecidas
 *   A análise de segurança é básica e foca em "red flags" comuns. Não substitui uma auditoria de segurança completa por especialistas ou ferramentas dedicadas.
