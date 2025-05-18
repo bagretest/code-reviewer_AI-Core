@@ -54,17 +54,25 @@ Este projeto emprega seis agentes de IA, cada um focado em uma área específica
     *   Adicione sua chave da API Gemini ao arquivo:
         ```env
         GEMINI_API_KEY="SUA_CHAVE_API_AQUI"
+        PROJECT_ID="SEU_PROJECT_ID_AQUI" #CASO USE O VERTEX AI -->
         ```
 
 5.  **Configure o Projeto Vertex AI (se aplicável):**
     O cliente Gemini está configurado para usar Vertex AI:
     ```python
     client = genai.Client(
+        vertexai=True, project=os.getenv("PROJECT_ID"), location='us-central1'
+    )
+    ```
+    ou
+    ```python
+    client = genai.Client(
         vertexai=True, project='your-project-id', location='us-central1'
     )
     ```
+    
     Certifique-se de:
-    *   Substituir `'your-project-id'` pelo ID do seu projeto Google Cloud.
+    *   Substituir `'your-project-id'` pelo ID do seu projeto Google Cloud, ou adicionar no arquivo '.env'.
     *   Ter as permissões necessárias e a API Vertex AI habilitada no seu projeto GCP.
     *   Estar autenticado com o Google Cloud SDK (`gcloud auth application-default login`).
   
