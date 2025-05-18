@@ -141,6 +141,7 @@ Estrutura do Projeto (Simplificada)
 *   Interface web para facilitar o uso.
 *   Opção para configurar guias de estilo específicos.
 *   Relatórios mais interativos ou em formatos exportáveis (HTML, PDF).
+  
 Caso aplique algum deles, entre em contato comigo! Adoraria ver as possíveis adições e melhorias no código.
 
 ## Licença
