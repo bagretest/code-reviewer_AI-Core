@@ -109,3 +109,39 @@ SECRET_KEY = "supersecretpassword123" # Credencial hardcoded!
 
 def greet(nome):
     print('Ola ' + nome) # Problema de estilo e sem validação
+```
+
+Estrutura do Projeto (Simplificada)
+```
+.
+├── seu_script_principal.py  # Contém a lógica dos agentes e o fluxo principal
+├── .env                     # Arquivo para variáveis de ambiente (NÃO COMMITAR)
+├── requirements.txt         # Lista de dependências Python
+└── README.md                # Este arquivo
+```
+
+## Contribuições
+Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções de bugs, sinta-se à vontade para:
+    * Fazer um Fork do projeto.
+    * Criar uma nova Branch (git checkout -b feature/nova-feature).
+    * Fazer commit de suas alterações (git commit -am 'Adiciona nova feature').
+    * Fazer Push para a Branch (git push origin feature/nova-feature).
+    * Abrir um Pull Request.
+    
+## Limitações Conhecidas
+* A análise de segurança é básica e foca em "red flags" comuns. Não substitui uma auditoria de segurança completa por especialistas ou ferramentas dedicadas.
+* A eficácia da análise depende da qualidade dos prompts dos agentes e das capacidades do modelo Gemini subjacente.
+* O sistema não executa o código, realizando uma análise estática.
+* Pode haver falsos positivos ou falsos negativos, especialmente em cenários complexos ou com dependências externas não visíveis no trecho de código fornecido.
+* A análise de acessibilidade é focada em código front-end (HTML, CSS, JavaScript).
+
+## Planos Futuros
+* Integração com repositórios Git para análise de Pull Requests.
+* Suporte para mais linguagens de programação.
+* Interface web para facilitar o uso.
+* Opção para configurar guias de estilo específicos.
+* Relatórios mais interativos ou em formatos exportáveis (HTML, PDF).
+Caso aplique algum deles, entre em contato comigo! Adoraria ver as possíveis adições e melhorias no código.
+
+## Licença
+Este projeto é distribuído sob a licença MIT LICENSE. Veja o arquivo LICENSE para mais detalhes.
